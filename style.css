@@ -15,8 +15,31 @@ body {
     margin: 0 auto;
 }
 
-.logo{
+.logo img{
     height: 70px;
     border-right: 1px solid #E5E5E5;
     padding-right: 20px;
+}
+
+nav{
+    margin: 50px 0;
+}
+nav li{
+    display: inline;
+    list-style-type: none;
+    padding-right: 10px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+.banner{
+    height: 600px;
+    background-image: url(img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px;
+
 }
