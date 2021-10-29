@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
@@ -40,13 +40,42 @@ nav a{
     background-image: url(img/banner.jpg);
     border-radius: 15px 15px;
     background-size: cover;
+    background-position: center;
     position: relative;
 }
 
 .bannertext{
     position: absolute;
     bottom:75px;
-    width: 40%;
+    width: 50%;
+    margin-left: 70px;
 }
 
-  
+.col::after{
+    content: "";
+    clear:both;
+    display: table;
+}
+
+main{
+    margin: 60px auto;
+}
+
+.colhead{
+    height: 150px;
+}
+
+.col{
+    margin: 10px auto;
+}
+
+.colsx, .colcx, .coldx{
+    float: left;
+    width: 20%;
+    height: 750px;
+}
+
+.colcx{
+    margin: auto 1%;
+    width: 58%;
+}
