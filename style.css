@@ -8,6 +8,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
+    font-size: 20px;
 }
 
 .container{
@@ -35,11 +36,11 @@ nav a{
 }
 
 .banner{
-    height: 600px;
+    height: 500px;
     background-image: url(img/banner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     border-radius: 15px 15px;
+    background-size: cover;
 
 }
+
+  
