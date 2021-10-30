@@ -77,7 +77,7 @@ main{
 .colsx, .colcx, .coldx{
     float: left;
     width: 20%;
-    height: 750px;
+    height: 500px;
 }
 
 .colcx{
@@ -110,4 +110,13 @@ h5{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+footer{
+    text-align: center;
+    margin: 20px auto;
+}
+footer div::after{
+    content: "\2764";
+    color: red;
 }
