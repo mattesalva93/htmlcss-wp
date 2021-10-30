@@ -39,13 +39,19 @@ nav a{
 a:hover {
     text-decoration: underline;
   }
-.banner{
+#banner{
     height: 600px;
     background-image: url(img/banner.jpg);
     border-radius: 15px 15px;
     background-size: cover;
     background-position: center;
     position: relative;
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 600px;
+    border-radius: 15px 15px;
 }
 
 .bannertext{
