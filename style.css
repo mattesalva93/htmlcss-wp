@@ -84,6 +84,7 @@ main{
     float: left;
     width: 20%;
     height: 500px;
+    overflow: auto;
 }
 
 .colcx{
@@ -116,6 +117,12 @@ h5{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.overlaycol{
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100%;
+    border-radius: 15px 15px;
 }
 
 footer{
